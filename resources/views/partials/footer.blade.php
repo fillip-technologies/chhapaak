@@ -28,12 +28,16 @@
              </div>
              <div class="space-y-4">
                  <h4 class="font-sans text-sm tracking-widest uppercase text-teal-900 dark:text-teal-50 font-bold mb-6">
-                     Company</h4>
+                     Facilities</h4>
                  <ul class="space-y-3">
                      <li><a class="text-stone-500 hover:text-teal-600 dark:hover:text-teal-400 text-sm transition-opacity"
-                             href="#">Sustainability</a></li>
+                             href="#">Sanctuaries
+                         </a></li>
                      <li><a class="text-stone-500 hover:text-teal-600 dark:hover:text-teal-400 text-sm transition-opacity"
-                             href="#">Careers</a></li>
+                             href="#">Dining</a></li>
+                     <li><a class="text-stone-500 hover:text-teal-600 dark:hover:text-teal-400 text-sm transition-opacity"
+                             href="#">Wellness</a></li>
+
                  </ul>
              </div>
          </div>
@@ -52,7 +56,7 @@
          </div>
      </div>
      <div class="mt-16 text-center border-t border-stone-200/40 dark:border-stone-800/40 pt-8">
-         <p class="font-sans text-xs tracking-widest uppercase text-stone-500">© 2024 Chhapaak Resort. All rights
+         <p class="font-sans text-xs tracking-widest uppercase text-stone-500">© 2026 Chhapaak Resort. All rights
              reserved.</p>
      </div>
  </footer>
