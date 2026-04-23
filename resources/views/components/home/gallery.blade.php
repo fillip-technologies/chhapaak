@@ -1,44 +1,236 @@
- <!-- Gallery Grid -->
- <section class="py-24 bg-white" id="gallery">
-     <div class="max-w-screen-2xl mx-auto px-8">
-         <h2 class="font-headline text-4xl md:text-5xl text-primary mb-16 text-center">Visual Poetry</h2>
-         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[300px]">
-             <div class="col-span-2 row-span-2 relative overflow-hidden rounded-xl">
-                 <img alt="Resort View"
-                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                     data-alt="Breathtaking aerial view of resort islands and blue water"
-                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFnA6Cx7Up9DEuX596HBcuLRk2xqmAwQq1MnmwokJtPczCLWNcd9qAJ9jx5W3vB2eIQcVPaRY6ol1sjHlp-Gl33gWh6tJdsSiYmICEgTTrfL-HaqCJla458EnytcsICjxGkfTw7T2dGr94btkaZvUyEoafdK9-ZvycfpR9fVwwwAaLHxSCglH8RkEkBUPP80STp4Z7XY3efSxlBwGmxVJYdvdDhRL-8M7kwNzENf7mwjBF5T1Ai1e59z_l_UBrHdJaS8tUxo3iGlQ" />
-             </div>
-             <div class="relative overflow-hidden rounded-xl">
-                 <img alt="Cocktails"
-                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                     data-alt="Vibrant tropical cocktail with hibiscus garnish"
-                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC4OzMzsAAYRCNydnaWbWRxoZFGgHVYJBgD6jrp2-xQnb57UQlJVDOWlmlyBjT3W_fC19KTJ3hlNog_9Q9aH-CkVK_hW24dQ_jCCcgKIaimCTdfiCFPwWNBFpaXFCLTf_KUlKnE5ZuzuExSHBuYUcSU_QYWqYLG9FXXLPRa8DmL7u_jvW4bKGC56nnFbzLJQA7e-uU5QieWWRMFJDQgSZQniQkauH7oxEaoYxMco4nH0xD3u0M-kvUy30Zkb7M0RJYg3cK9LEJftE" />
-             </div>
-             <div class="relative overflow-hidden rounded-xl">
-                 <img alt="Beach"
-                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                     data-alt="Pristine white sand beach at sunset"
-                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ_C8ngwNhJ_NoupLfqbjgJX8d3aN8TXX67rjxqqNvxJdYakO5ebsPnQu5w_K7I_kkU6jheeNZQ-NVCmUQn7CmA-koa78AOv65W2qnblqhm9O3mzeNgWOiS3tNhwUepVd6aYavKkaAZTSJlnX-If6APOFDGoTz66qS4UrrVO6g5rFiJL_V2J58LkeyFaDU5HjtYEkk3BvSoFHhhigZyQKbWTy503Wd0gVtpQWsKveT6wboyyn9RGrKkzcRAeVlquk6w-ts7tsZo40" />
-             </div>
-             <div class="row-span-2 relative overflow-hidden rounded-xl">
-                 <img alt="Wellness"
-                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                     data-alt="Person doing yoga on a wooden deck facing the sea"
-                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8DtiDwZRkEacai7XKYdf3nMqT_dh0tzaH1cKhQ0vV_fmUEtM0hqRE4P_eRKGEXZqB0F2cazIhIydh7Ij8z3WdwIq1ct4z67m_Goq24J_58R9XN0fLQ3apCYrxl0MmziWED6ISI3qk7CA78wWKWJIy0qoo7kIvI7mfTC3PUouZvKU_Lpw5j3aWrp0xkg6b7NLczET3DE15e0__DeV4I92xZvg0knRis9-6s0LbReXzGeUkrzdV0O4HvW0Rtxprgrpm-3VBaQXp3fs" />
-             </div>
-             <div class="relative overflow-hidden rounded-xl">
-                 <img alt="Resort Detail"
-                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                     data-alt="Architectural detail of wooden resort structure"
-                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJ8zjrn1J_GgPMQENNH_f5ipHQAHlI3RPpz2Bfwntm67AEIkR6OLXAXzpC02-hf1oBf1f6iaFoniE9d7S8zc5sQC7yMsCSLEKgRxp9_f2OE25jUs6gOZptjt1V-x_7EAeaGV4hAYNeCUfQSAF_Q69heqlIcNDByJt_LylpJdXIIv8H0hz_MuCOPB7XIvvTothWa0-eWN2y2BGj840IAsKWDwWk3EYQjqI8RFLkqiYkFci361XVeNPpuTjdVa12Y_S3jcQ6a6lT7a4" />
-             </div>
-             <div class="col-span-2 relative overflow-hidden rounded-xl">
-                 <img alt="Poolside"
-                     class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-                     data-alt="Rows of luxury loungers beside a crystal clear pool"
-                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1xT1VHzjhiKlL2UZUalSRpYvgKMqhs3akI7OYvP0WBZDaL3f1ShO8EYtOxQZwjKxmeOBrWclYUFegJ93bjLT5wAw9WwQ2KYKmsShqES6kEGpSZDN2ULzWRbwb-YQrkz5V62kQ1NvqsNZrXR0VSnA_tWWUPU-SGomVgm6G2mSZkJMhtHaa3-96Oz8KDwgho-9uunhizFBdPJirno2H4UT2X_H93bTdDzyolES5Isttw7Uq_gEqvtoOUFE0mbxJaOB2j0wfCVoGN6k" />
-             </div>
-         </div>
-     </div>
- </section>
+@php
+$galleryCategories = [
+[
+'title' => 'Weddings',
+'description' => 'Ceremonies, decor details, and celebration moments.',
+'images' => [
+[
+'src' => '/assets/images/weddingimg.jpeg',
+'alt' => 'Wedding setup at Chhapaak',
+'caption' => 'Wedding Setup',
+],
+[
+'src' => '/assets/images/engagement.jpeg',
+'alt' => 'Engagement celebration at Chhapaak',
+'caption' => 'Engagement Moment',
+],
+[
+'src' => '/assets/images/mehndi.jpg',
+'alt' => 'Mehndi celebration at Chhapaak',
+'caption' => 'Mehndi Celebration',
+],
+[
+'src' => '/assets/images/haldi.jpeg',
+'alt' => 'Haldi setup at Chhapaak',
+'caption' => 'Haldi Setup',
+],
+],
+],
+[
+'title' => 'Corporate Events',
+'description' => 'Professional gatherings with polished presentation spaces.',
+'images' => [
+[
+'src' => '/assets/images/corporate.jpg',
+'alt' => 'Corporate event space at Chhapaak',
+'caption' => 'Corporate Event',
+],
+[
+'src' => '/assets/images/ambience.JPG',
+'alt' => 'Event ambience for hosted corporate gatherings at Chhapaak',
+'caption' => 'Event Ambience',
+],
+[
+'src' => '/assets/images/social.jpeg',
+'alt' => 'Guest gathering moment at Chhapaak',
+'caption' => 'Hosted Gathering',
+],
+],
+],
+[
+'title' => 'Social Gatherings',
+'description' => 'Private functions, evening celebrations, and guest moments.',
+'images' => [
+[
+'src' => '/assets/images/birthday.jpeg',
+'alt' => 'Birthday celebration at Chhapaak',
+'caption' => 'Birthday Celebration',
+],
+[
+'src' => '/assets/images/social.jpeg',
+'alt' => 'Social gathering at Chhapaak',
+'caption' => 'Evening Celebration',
+],
+[
+'src' => '/assets/images/wedding.jpeg',
+'alt' => 'Celebration highlight at Chhapaak',
+'caption' => 'Celebration Highlight',
+],
+],
+],
+];
+@endphp
+
+<section class="bg-white py-24" id="gallery">
+    <div class="mx-auto max-w-screen-2xl px-6 md:px-8">
+        <div class="mx-auto mb-16 max-w-3xl text-center">
+            <span class="mb-4 inline-block font-label text-xs uppercase tracking-[0.34em] text-primary/70">
+                Event Gallery
+            </span>
+            <h2 class="mb-6 font-headline text-4xl text-primary md:text-5xl">
+                Moments at Chhapaak
+            </h2>
+            <p class="text-base leading-8 text-on-surface-variant md:text-lg">
+                Real celebrations, thoughtfully hosted. Explore wedding functions, corporate gatherings, and social
+                occasions that bring Chhapaak to life as an event destination.
+            </p>
+        </div>
+
+        <div class="space-y-16">
+            @foreach ($galleryCategories as $category)
+            <div class="rounded-[1.25rem] border border-outline-variant/40 bg-surface-container-low px-5 py-6 md:px-8 md:py-8">
+                <div class="mb-6 flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
+                    <div>
+                        <h3 class="font-headline text-3xl text-primary">
+                            {{ $category['title'] }}
+                        </h3>
+                        <p class="mt-2 text-sm leading-7 text-on-surface-variant">
+                            {{ $category['description'] }}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+                    @foreach ($category['images'] as $image)
+                    <button
+                        type="button"
+                        class="gallery-item group overflow-hidden rounded-xl bg-surface-container-lowest text-left"
+                        data-image="{{ $image['src'] }}"
+                        data-alt="{{ $image['alt'] }}"
+                        data-caption="{{ $image['caption'] }}">
+                        <div class="overflow-hidden">
+                            <img
+                                src="{{ $image['src'] }}"
+                                alt="{{ $image['alt'] }}"
+                                class="h-72 w-full object-cover transition-transform duration-700 group-hover:scale-105">
+                        </div>
+                        <div class="px-4 py-4">
+                            <span class="font-label text-[11px] uppercase tracking-[0.28em] text-primary/70">
+                                {{ $category['title'] }}
+                            </span>
+                            <p class="mt-2 text-sm text-on-surface-variant">
+                                {{ $image['caption'] }}
+                            </p>
+                        </div>
+                    </button>
+                    @endforeach
+                </div>
+            </div>
+            @endforeach
+        </div>
+
+        <!-- <div class="mt-16 rounded-[1.25rem] bg-primary px-8 py-10 text-center text-white md:px-12">
+            <h3 class="mb-4 font-headline text-3xl md:text-4xl">
+                Plan Your Event at Chhapaak
+            </h3>
+            <p class="mx-auto mb-8 max-w-2xl text-sm leading-7 text-white/80 md:text-base">
+                From first impressions to final celebrations, let your guests experience an event venue designed for
+                memorable occasions.
+            </p>
+            <div class="flex flex-col items-center justify-center gap-4 sm:flex-row">
+                <a
+                    href="#contact"
+                    class="inline-flex items-center justify-center rounded-full bg-white px-8 py-3 font-label text-xs uppercase tracking-[0.25em] text-primary transition-all duration-300 hover:bg-surface-container-low"
+                >
+                    Enquire Now
+                </a>
+                <a
+                    href="https://wa.me/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center justify-center rounded-full border border-white/40 px-8 py-3 font-label text-xs uppercase tracking-[0.25em] text-white transition-all duration-300 hover:bg-white/10"
+                >
+                    Contact Us
+                </a>
+            </div>
+        </div> -->
+    </div>
+
+    <div
+        id="gallery-lightbox"
+        class="pointer-events-none fixed inset-0 z-[60] flex items-center justify-center bg-black/70 px-6 opacity-0 transition-all duration-300"
+        aria-hidden="true">
+        <div class="relative w-full max-w-5xl scale-95 transition-transform duration-300" id="gallery-lightbox-panel">
+            <button
+                type="button"
+                id="gallery-lightbox-close"
+                class="absolute right-4 top-4 z-10 inline-flex h-10 w-10 items-center justify-center rounded-full bg-black/50 text-white backdrop-blur-sm"
+                aria-label="Close preview">
+                <span class="material-symbols-outlined">close</span>
+            </button>
+
+            <div class="overflow-hidden rounded-[1.25rem] bg-white">
+                <img
+                    id="gallery-lightbox-image"
+                    src=""
+                    alt=""
+                    class="max-h-[75vh] w-full object-cover">
+                <div class="px-6 py-5">
+                    <p id="gallery-lightbox-caption" class="text-sm text-on-surface-variant"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    (() => {
+        const lightbox = document.getElementById('gallery-lightbox');
+        const lightboxPanel = document.getElementById('gallery-lightbox-panel');
+        const lightboxImage = document.getElementById('gallery-lightbox-image');
+        const lightboxCaption = document.getElementById('gallery-lightbox-caption');
+        const closeButton = document.getElementById('gallery-lightbox-close');
+        const items = document.querySelectorAll('.gallery-item');
+
+        if (!lightbox || !lightboxPanel || !lightboxImage || !lightboxCaption || !closeButton || !items.length) return;
+
+        const openLightbox = (item) => {
+            lightboxImage.src = item.dataset.image || '';
+            lightboxImage.alt = item.dataset.alt || '';
+            lightboxCaption.textContent = item.dataset.caption || '';
+            lightbox.classList.remove('pointer-events-none', 'opacity-0');
+            lightbox.classList.add('opacity-100');
+            lightboxPanel.classList.remove('scale-95');
+            lightboxPanel.classList.add('scale-100');
+            document.body.classList.add('overflow-hidden');
+            lightbox.setAttribute('aria-hidden', 'false');
+        };
+
+        const closeLightbox = () => {
+            lightbox.classList.add('pointer-events-none', 'opacity-0');
+            lightbox.classList.remove('opacity-100');
+            lightboxPanel.classList.add('scale-95');
+            lightboxPanel.classList.remove('scale-100');
+            document.body.classList.remove('overflow-hidden');
+            lightbox.setAttribute('aria-hidden', 'true');
+        };
+
+        items.forEach((item) => {
+            item.addEventListener('click', () => openLightbox(item));
+        });
+
+        closeButton.addEventListener('click', closeLightbox);
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && lightbox.getAttribute('aria-hidden') === 'false') {
+                closeLightbox();
+            }
+        });
+    })();
+</script>
