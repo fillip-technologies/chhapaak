@@ -308,13 +308,14 @@
 
     <script>
         const nav = document.getElementById('main-nav');
+        const mobileMenu = document.getElementById('mobile-menu');
         const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
         const mobileMenuIcon = document.getElementById('mobile-menu-icon');
         const mobileMenuLinks = document.querySelectorAll('[data-mobile-menu-link]');
         let isMobileMenuOpen = false;
 
         const setMobileMenuState = (isOpen) => {
-            if (!nav || !mobileMenuToggle || !mobileMenuIcon) {
+            if (!nav || !mobileMenuToggle) {
                 return;
             }
 
@@ -322,7 +323,12 @@
             nav.classList.toggle('menu-open', isOpen);
             mobileMenuToggle.setAttribute('aria-expanded', String(isOpen));
             mobileMenuToggle.setAttribute('aria-label', isOpen ? 'Close navigation menu' : 'Open navigation menu');
-            mobileMenuIcon.textContent = isOpen ? 'close' : 'menu';
+            if (mobileMenu) {
+                mobileMenu.setAttribute('aria-hidden', String(!isOpen));
+            }
+            if (mobileMenuIcon) {
+                mobileMenuIcon.textContent = isOpen ? 'close' : 'menu';
+            }
             document.body.classList.toggle('mobile-nav-open', isOpen);
         };
 

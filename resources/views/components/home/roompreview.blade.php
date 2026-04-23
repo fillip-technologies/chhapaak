@@ -14,8 +14,9 @@
             </div>
 
             <a class="text-primary font-label text-sm tracking-widest uppercase border-b-2 border-primary/20 pb-2 hover:border-primary transition-all"
-                href="#">
-                Explore All Events
+                href="https://www.swiftbook.io/inst/#home?propertyId=941NRa3Daauniyc3zVcsIQMfKG3I8EcQx0dYcZiu35tMaRg1Bz1Tc0MTk=&JDRN=Y"
+                target="_blank" rel="noopener noreferrer">
+                Explore Rooms & Stay
             </a>
         </div>
 

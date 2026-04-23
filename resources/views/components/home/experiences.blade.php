@@ -56,10 +56,10 @@
                             </li>
                         </ul>
 
-                        <button
+                        {{-- <button
                             class="bg-secondary-container text-on-secondary-container px-8 py-3 rounded-full font-label text-sm tracking-widest uppercase hover:brightness-95 transition-all">
                             Explore Setup
-                        </button>
+                        </button> --}}
 
                     </div>
                 </div>

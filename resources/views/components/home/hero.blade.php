@@ -29,15 +29,16 @@
         <!-- CTA Buttons -->
         <div class="mt-10 flex flex-col md:flex-row items-center justify-center gap-4">
 
-            <a href="#events"
+            <a href="https://www.swiftbook.io/inst/#home?propertyId=941NRa3Daauniyc3zVcsIQMfKG3I8EcQx0dYcZiu35tMaRg1Bz1Tc0MTk=&JDRN=Y"
+                target="_blank" rel="noopener noreferrer"
                 class="bg-white text-black px-8 py-3 rounded-full text-xs uppercase tracking-widest">
-                Explore Events
+                Book Room
             </a>
 
-            <a href="#contact"
+            {{-- <a href="#contact"
                 class="border border-white text-white px-8 py-3 rounded-full text-xs uppercase tracking-widest">
                 Book Event
-            </a>
+            </a> --}}
 
         </div>
     </div>

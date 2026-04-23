@@ -110,9 +110,10 @@ $experienceSlides = [
                 </ul>
 
                 <!-- CTA -->
-                <a href="#contact"
-                    class="inline-block bg-primary text-white px-6 py-3 rounded-full text-sm uppercase tracking-widest">
-                    Enquire Now
+                <a href="https://chhapaakwaterpark.com/"
+                    class="inline-block bg-primary text-white px-6 py-3 rounded-full text-sm uppercase tracking-widest"
+                    target="_blank" rel="noopener noreferrer">
+                    Explore Now
                 </a>
             </div>
 

@@ -91,7 +91,7 @@ $eventSpaces = [
                     </div>
 
                     <a
-                        href="#contact"
+                        href="tel:+918810209220"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-6 py-3 font-label text-xs uppercase tracking-[0.25em] text-white transition-all duration-300 hover:bg-primary-container">
                         Enquire Now
                     </a>
